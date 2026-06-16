@@ -1,5 +1,5 @@
 /*
-=============================================================================
+
 Script Purpose:
     This script executes the stored procedure 'silver.load_silver' responsible
     for loading data into the 'silver' schema tables from the 'bronze' layer.
@@ -9,7 +9,7 @@ Script Purpose:
 Usage:
     - Execute this script
     - Use EXEC silver.load_silver to run it
-=============================================================================
+
 */
 
 CREATE OR ALTER PROCEDURE silver.load_silver AS
